@@ -1,0 +1,150 @@
+/*-----------general style-----------*/
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*================HOME PAGE================*/
+
+.wrapper {
+    display: flex;
+    color: white;
+}
+/*-----------left page-----------*/
+
+.left-page {
+    width: 60%;
+    background-color: #1d3c45;
+}
+.left-page .nav {
+    display: flex;
+    margin-top: 2rem;
+}
+.logo {
+    padding-left: 3rem;
+}
+.logo img {
+    width: 15rem;
+    height: 5rem;
+}
+
+.nav li {
+    list-style-type: none;
+    margin-left: 7rem;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+.nav li a:hover {
+    color:#ff6e40;
+}
+
+
+.section {
+    display: flex;
+   
+}
+.social {
+    margin-top: 10rem;
+    background-color:#fff1e1;
+    height: 35rem;
+    width: 4rem;
+
+    
+}
+
+.social li {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    list-style-type: none;
+}
+
+
+
+.cta {
+    margin-top: 7rem;
+    padding-left: 8rem;
+    
+}
+
+.cta h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.cta p {
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+    
+}
+.cta button {
+    padding: 1.5rem 2.2rem;
+    text-transform: uppercase;
+    background: #ff6e40;
+    width: 16rem;
+    border-radius: 1rem;
+    border:none;
+    margin-top: 2.5rem;
+}
+
+.cta button a {
+    color: #fff1e1;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.cta button:hover {
+    background-color:#db3907; 
+    cursor: pointer;
+}
+
+
+/*-----------right page-----------*/
+
+.right-page {
+    width: 40%;
+    background-color: #fff1e1;
+}
+.nav-icons {
+    display: flex;
+    margin-left: 15rem;
+    color:#1d3c45;
+    font-size: 2rem;
+    
+}
+
+.nav-icons a{
+    padding: 2.5rem;
+    color: #1d3c45;
+    text-decoration: none;
+
+}
+.nav-icons a:hover{
+    color:#ff6e40;
+}
+
+.nav-icons .sign {
+    font-size: 1.6rem;
+}
+
+.image{
+    margin-top: 6rem;
+   
+}
+
+.image img {
+    width: 65rem;
+    height: 43rem;
+    margin-left: -15rem;
+    margin-bottom: 5rem;
+    
+}
