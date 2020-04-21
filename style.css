@@ -148,3 +148,86 @@ body {
     margin-bottom: 5rem;
     
 }
+
+/*===============STYLES========================*/
+
+
+.cards {
+    height: 50rem;
+    display: flex;
+    margin-top: -10rem;
+    line-height: 2rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 15rem;
+    background-color:#fff1e1;
+    border-style: solid;
+    border-color: #1d3c45;
+    
+}
+
+
+.card {
+    padding-top: 5rem;
+    width: 33rem;
+    padding-left: 2.5rem;
+    z-index: 2;
+}
+
+.card img {
+    width: 30rem;
+    height: 30rem;
+    opacity: 0.8;
+}
+
+.card img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    transition-duration: 0.05s;
+    
+    
+}
+
+.container h2 {
+    text-align: center;
+    color:#1d3c45;
+    font-size: 2rem;
+}
+
+.button-container {
+    padding-left: 8rem;
+}
+
+.button-container button {
+    padding: 1.2rem 2rem;
+    text-transform: uppercase;
+    background: #ff6e40;
+    width: 17rem;
+    border-radius: 1rem;
+    border:none;
+    
+}
+
+.button-container button:hover {
+    background-color:#db3907; 
+    cursor: pointer;
+}
+
+.circle {
+    color:white;
+    background-color: #1d3c45;
+    border-radius: 50%;
+    padding: 0.25rem;
+    margin-left: 0;
+    
+
+}
+
+.button-text {
+    color:white;
+    margin-left: 0.4rem;
+    
+}
+
+
+
