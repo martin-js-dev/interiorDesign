@@ -435,3 +435,97 @@ body {
     padding-bottom: 4rem;
 }
 
+/*----------------------BENEFITS OF BUYING FROM US-------------------*/
+
+.wrapper-benefits{
+    padding-bottom: 5rem;
+    
+    
+}
+.wrapper-benefits h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10rem;
+    margin-top: 0.1rem;
+    color: #1d3c45;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    
+}
+
+
+.wrapper-benefits h1:before {
+    border-top: 0.6rem solid #ff6e40;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 64%; left: 0; right: 0; bottom: 0;
+    width: 55%;
+    z-index: -1;
+    }
+
+
+.benefits {
+    display: flex;
+}
+
+
+.benefits-cta {
+    width: 45rem;
+    margin-left: 7rem;
+}
+
+.benefits-cta h2 {
+    color: #31505a;
+    font-size: 2.5rem;
+    margin-left: 5.5rem;
+}
+
+.paragraph {
+    display: flex;
+    color:#ff6e40;
+    
+}
+
+.paragraph p {
+    color: #3d535a;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+
+
+
+.benefits-image img {
+    width: 55rem;
+    height: 40rem;
+    padding-left: 15rem;
+}
+
+.benefits-button button {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    padding: 1.2rem 2rem;
+    text-transform: uppercase;
+    width: 13rem;
+    border-radius: 1rem;
+    border:none;
+    border:0.3rem solid; color:#ff6e40;
+    background-color:#f8eee2;
+    
+}
+
+.benefits-button button a {
+    text-decoration: none;
+    color: #1d3c45;
+    font-size:1.4rem;
+}
+
+
+.benefits-button button:hover {
+    background-color:#db3907; 
+    cursor: pointer;
+}
