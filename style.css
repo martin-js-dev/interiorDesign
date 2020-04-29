@@ -529,3 +529,181 @@ body {
     background-color:#db3907; 
     cursor: pointer;
 }
+
+/*----------------------OUR projects--------------------*/
+
+
+.wrapper-portfolio {
+    background-color:#f8eee2;
+}
+.portfolio{
+    display: flex;
+    padding: 6rem;
+   
+}
+  
+.cta1 {
+    
+    color: #1e3d59;
+    margin-left: 4rem;
+    
+
+}
+
+.cta1 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.column {
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.column i {
+    font-size: 4rem;
+    color:#ff6e40;
+}
+
+.column p {
+    font-size: 2rem;
+    padding-left: 4rem;
+}
+
+.btn-primary {
+    display: block;
+    padding: 1.2rem 2rem;
+    text-transform: uppercase;
+    width: 15rem;
+    border-radius: 1rem;
+    border:0.3rem solid; color:#ff6e40;
+    background-color: #fff1e1;
+    
+    
+}
+
+.btn-primary a {
+    color: #1e3d59;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.btn-primary:hover {
+    background-color:#db3907; 
+    cursor: pointer;
+}
+  
+  
+.slideshow-container { 
+    padding-right: 10rem;
+    position: relative;    
+    width: 55rem;
+    height: 50rem;
+    
+}
+    
+.arows {
+    width: 70rem;
+}  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    color: #1e3d59;
+    font-weight: bold;
+    font-size: 4.2rem;
+    transition: 0.6s ease;
+    border-radius: 0 0.3rem 0.3rem 0;
+    user-select: none;
+
+    
+}
+
+
+.next {
+    right: 0;
+    border-radius: 0.3rem 0 0 0.3rem;
+    margin-right: 3.5rem;
+    
+}
+
+
+.prev:hover, .next:hover {
+    background-color:#ff6e40;
+}
+
+
+.text1 p {
+    color: #1e3d59;
+    text-decoration: line-through;
+    font-size: 2.2rem;
+    
+    position: absolute;
+    bottom: 42rem;
+
+    width: 100%;
+    text-align: center;
+}
+
+.text1 span {
+    color:  #ff6e40;
+    font-size: 3rem;
+    padding: 0.8rem 1.2rem;
+    position: absolute;
+    bottom: 38rem;
+    
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.numbertext {
+    color: #1e3d59;
+    font-size: 2.2rem;
+    padding: 0.8rem 1.2rem;
+    position: absolute;
+    top: 0;
+    
+}
+.numbertext img {
+    width: 55rem;
+    height: 40rem;
+    padding-left: 2rem;
+}
+
+.lines {
+    margin-top: 43rem;
+    margin-left: 14rem;
+}
+.line {
+    cursor: pointer;
+    height: 0.6rem;
+    width: 8rem;
+    background-color: #ff6e40;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+}
+
+.active, .line:hover {
+    background-color: #1e3d59;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
