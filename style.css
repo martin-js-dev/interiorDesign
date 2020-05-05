@@ -896,3 +896,161 @@ body {
 .back {
 	transform: rotateY(180deg);
 }
+
+
+/*----------------------POPULAR ITEMS--------------------*/
+
+.wrapper-popular{
+    padding-bottom: 5rem;
+    
+}
+
+.wrapper-popular h1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    color:#1d3c45;
+}
+  
+.slider {
+    width: 90%;
+    height: 43rem;
+    position: relative;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 5rem;
+    
+}
+  
+
+.slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+}
+  
+.slider .item {
+    margin-right: 2rem;
+}
+  
+.slider .item:last-child {
+    margin-right: 0;
+}
+
+
+
+  
+.ctrl-btn {
+    padding: 1rem 2rem;
+    background: #ff6e40;
+    color:white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    margin-top: 13rem;
+    display: flex;
+}
+
+.ctrl-btn span {
+   margin-top: 0.5rem;
+}
+
+.ctrl-btn:hover {
+    background-color:#e24313;
+}
+.ctrl-btn.prev1 {
+    left: 0;
+}
+  
+.ctrl-btn.next1 {
+    right: 0;
+}
+  
+.item  {
+    width: 23rem;
+    height: 32rem;
+    background-color: white;
+    border-radius: 5%;
+}
+  
+.popular-item h3 {
+    margin-top: 0;
+    color:#1e3d59;
+    font-size: 1.6rem;
+    
+}
+
+.popular-item p {
+    color: #ff6e40;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+.popular-order {
+    padding-left: 4rem;
+}
+.popular-order h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.popular-span1 {
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    color: #1e3d59;;
+
+}
+
+.popular-span2 {
+    font-size: 1.7rem;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    color:#1e3d59;
+}
+
+.order-icon {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    font-size: 5rem;
+}
+
+.order-icon button {
+    border-radius: 50%;
+    border: 3px solid #ff6e40;
+    padding: 1rem 1.5rem;
+}
+
+.order-icon button:hover {
+    background-color: #f7a288;
+}
+  
+.popular-item button {
+    height: 3rem;
+    width: 10rem;
+    padding-left: 3rem;
+    border:none;
+    background-color: #ff6e40;
+  
+}
+
+.popular-item button a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color:white;
+    margin-right:20px;
+
+}
+
+.popular-item button:hover {
+    background-color:#e24313;
+}
+  
