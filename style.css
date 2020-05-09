@@ -1190,4 +1190,149 @@ body {
     cursor: pointer;
 }
 
-  
+
+/*--------------------- SOCIAL PROOF--------------------*/
+
+
+.wrapper-proof{
+    margin-top: 2rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    
+    
+}
+
+.wrapper-proof h1 {
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    color:#1d3c45;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.wrapper-proof h1:before {
+    border-top: 0.6rem solid #ff6e40;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 70%; left: 0; right: 0; bottom: 0;
+    width: 55%;
+    z-index: -1;
+}
+
+.wrapper-proof p {
+    font-size: 1.6rem;
+    color:#3c575f;
+}
+
+.partners1 {
+    display: flex;
+    margin-left: 22rem;
+    
+    
+}
+.partners1 img {
+    padding-right: 10rem;
+    padding-top: 5rem;
+    width:15rem;
+    height:4rem;
+    
+}
+
+.partners2 {
+    display: flex;
+    margin-left: 22rem;
+    
+    
+}
+.partners2 img {
+    padding-right: 10rem;
+    padding-top: 7rem;
+    width:15rem;
+    height:5rem;
+    
+}
+
+/*-=============TESTEMONIALS=================*/
+
+.wrapper-testemonials{
+    padding-bottom: 5rem;
+    background-color: #62828b;
+    margin-top: -2rem;
+}
+.wrapper-testemonials h1 {
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    color:white;
+    padding-bottom: 5rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper-testemonials h1:before {
+    border-top: 0.3rem solid #ff6e40;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 75%; left: 0; right: 0; bottom: 0;
+    width: 20%;
+    z-index: -1;
+}
+
+.testemonials-cards {
+    display: flex;
+    margin-left: 25rem;
+}
+.testemonial {
+    width: 15rem;
+    height: 35rem;
+    margin-right: 4rem;
+    background-color: rgb(240, 239, 239);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 5%;
+    color:#1d3c45;
+}
+
+.testemonial p {
+    line-height: 2rem;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.people-text {
+    background-color: #ff6e40;
+    color:rgb(240, 239, 239);
+    width: 25rem;
+    height: 15rem;
+    margin-left: -5rem;
+    border-radius: 5%;
+    margin-top: 4rem;    
+}
+
+.people-text h2 {
+    margin-left: 6rem;
+    font-size: 1.6rem;
+   
+}
+.people-text span {
+    margin-left: 6rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    
+}
+
+.testemonial img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 65%;
+    padding-left: 7rem;
+    margin-top:-4rem;
+}
