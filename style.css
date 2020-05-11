@@ -1336,3 +1336,162 @@ body {
     padding-left: 7rem;
     margin-top:-4rem;
 }
+
+
+/*----------------------BLOG--------------------*/
+
+.wrapper-blog {
+    color:#1d3c45;
+}
+
+.blog-title {
+    text-align: center;
+    margin-top: 5rem;
+}
+.blog-title h3 {
+    text-transform: uppercase;
+}
+.blog-title p {
+    font-size: 1.3rem;
+}
+.blog {
+    display: flex;
+    margin-left: 18rem;
+    margin-top: 5rem;
+}
+
+.blog-news {
+    width: 30rem;
+    height: auto;
+    margin-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.blog-news h4 {
+    color:#79888d;
+}
+.blog-news h2 {
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+.blog-news img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+}
+
+.blog-news a {
+    text-decoration: none;
+    color:#416975;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.blog-news a:hover {
+    color:#ff6e40;
+}
+
+/*------------------CONTACT FORM--------------------*/
+
+.wrapper-contact{
+    display: flex;
+   
+}
+
+.left-contact{
+    width: 40%;
+    background-color: #1d3c45;;
+    padding-bottom: 4rem;
+}
+
+.right-contact{
+    width: 60%;
+    background-color: #ffe8cd;
+    padding-bottom: 4rem;
+}
+
+.right-contact h1 {
+    font-size: 3rem;
+    margin-left: 29rem;
+    padding-top: 2rem;
+    color:#1d3c45;
+}
+.right-contact p {
+    color:#1d3c45;
+    margin-left: 29rem;
+    font-size: 1.8rem;
+}
+
+.img-contact {
+    margin-top: 5rem;
+    margin-left:-40rem;
+}
+
+
+.contact-container {
+    width: 30rem;
+    height: 40rem;
+    margin-left: 25rem;
+    margin-top: -42rem;
+    padding: 2rem;
+}
+
+.name, .email, .phone, .message {
+    width: 30rem;
+    padding: 1.2rem;
+    border: 1px solid #ccc;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+.phone {
+    margin-left: 0;
+}
+
+.message {
+    height: 10rem;
+    margin-left: 0;
+}
+
+
+.column2 {
+    float: left;
+    width: 70%;
+    margin-top: 0.6rem;
+    padding: 2rem;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.contact-button button {
+    height: 4rem;
+    width: 32.5rem;
+    margin-top: 1rem;
+    border:none;
+    background-color: #ff6e40;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    
+    
+}
+
+.contact-button button:hover  {
+    background-color:#e24313;
+    cursor: pointer;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #1d3c45;
+}
+
